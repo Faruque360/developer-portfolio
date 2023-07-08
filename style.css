@@ -20,7 +20,7 @@ h1 {
     text-decoration: none;
 }
 
-section {
+.Flexable-container {
     display: flex;
 }
 
@@ -54,4 +54,25 @@ h3 {
 
 .dream-section {
     margin-top: 100px;
+}
+
+.backgorund-colorweb {
+    background-color: black;
+}
+
+.backgorund-colorweb h1 {
+    color: white;
+}
+
+.box-shoadow {
+    box-shadow: 10px 10px 40px white;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-left: 10px solid red;
+    border-radius: 10px;
+}
+
+footer p {
+    text-align: center;
+    color: black;
 }
